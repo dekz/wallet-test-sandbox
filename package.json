@@ -1,0 +1,21 @@
+{
+    "name": "wallet-tests",
+    "version": "0.0.1",
+    "description": "Tests various wallets adherence to specifications",
+    "main": "src/index.tsx",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "@0x/order-utils": "^8.3.0",
+        "@0x/subproviders": "^5.0.2",
+        "@0x/web3-wrapper": "^6.0.11",
+        "parcel": "^1.12.3"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.6.1",
+        "typescript": "^3.5.3"
+    },
+    "license": "MIT"
+}
